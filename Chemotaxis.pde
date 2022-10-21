@@ -10,7 +10,7 @@ void setup()
   for(int i = 0; i < hearts.length; i++){
     hearts[i] = new Heart(255,(int)(Math.random()*256),(int)(Math.random()*500),(int)(Math.random()*500));
   }
-  frameRate(25);
+  frameRate(40);
 }
 
 void draw()
